@@ -18,3 +18,12 @@
 font-size: 20px;
 font-weight: 800;
 }
+/* Hide scrollbar chrome, safari, opera */
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feed {
+    -ms-overflow-style: none; /* IE, Edge */
+    scrollbar-width: none; /* firefox */
+}
