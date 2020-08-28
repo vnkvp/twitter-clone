@@ -1,7 +1,6 @@
 .tweetbox {
     padding: 0 10px 10px 0;
     border-bottom: 8px solid var(--twitter-background);
-
 }
 .tweetbox > form {
     display: flex;
@@ -16,6 +15,7 @@
     margin-left: 20px;
     font-size: 20px;
     border: none;
+    outline: none !important;
 }
 .tweetboxTweet {
         background-color: var(--twitter-color) !important;
@@ -33,4 +33,5 @@
 .tweetboxImageInput {
     border: none;
     padding: 20px;
+    outline: none!important;
 }

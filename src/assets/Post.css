@@ -1,0 +1,11 @@
+.post {
+    margin-left: 20px;
+}
+
+.postBadge {
+    color: var(--twitter-color);
+}
+
+.postImage {
+max-width: 420px;   
+}
