@@ -1,11 +1,11 @@
 import React from 'react'
 import './assets/Post.css'
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser'
-import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
-import RepeatIcon from '@material-ui/icons/Repeat';
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import PublishIcon from '@material-ui/icons/Publish';
+import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline'
+import RepeatIcon from '@material-ui/icons/Repeat'
+import PublishIcon from '@material-ui/icons/Publish'
 import { Avatar } from '@material-ui/core'
+import LikePost from './LikePost'
 
 function Post({
     displayName,
@@ -51,12 +51,11 @@ function Post({
                             <RepeatIcon fontSize='small' />
                         </span>
                         <span>
-                            <FavoriteBorderIcon fontSize='small' />
+                            <LikePost />
                         </span>
                         <span>
                             <PublishIcon fontSize='small' />
                         </span>
-
                     </div>
                 </div>
             </div>

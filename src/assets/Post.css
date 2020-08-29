@@ -53,3 +53,8 @@
     max-width: 420px;
     border-radius: 20px;
 }
+
+.postLikes {
+    display: flex;
+    font-size: 14px;
+}
