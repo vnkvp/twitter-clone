@@ -44,10 +44,19 @@ function Post({
                         src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F3l02rhocss051.jpg&f=1&nofb=1'
                         alt='strong-doge' className='postImage' />
                     <div className='postFooter'>
-                        <ChatBubbleOutlineIcon fontSize='small' />
-                        <RepeatIcon fontSize='small' />
-                        <FavoriteBorderIcon fontSize='small' />
-                        <PublishIcon fontSize='small' />
+                        <span>
+                            <ChatBubbleOutlineIcon fontSize='small' />
+                        </span>
+                        <span>
+                            <RepeatIcon fontSize='small' />
+                        </span>
+                        <span>
+                            <FavoriteBorderIcon fontSize='small' />
+                        </span>
+                        <span>
+                            <PublishIcon fontSize='small' />
+                        </span>
+
                     </div>
                 </div>
             </div>
