@@ -14,6 +14,10 @@ return (
             <Tweetbox />
             {/* posts */}
             <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
         </div>
     )
 }
