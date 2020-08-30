@@ -19,30 +19,30 @@ function Post({
         <div className='post'>
             <div className='postAvatar'>
                 <Avatar
-                    src='https://pbs.twimg.com/media/EMXiSHoWkAANGKA.jpg'
+                    src={avatar}
                 />
             </div>
             <div className='postBody'>
                 <div className='postHeader'>
                     <div className='postHeaderText'>
                         <h3>
-                            Oswaldo Inácio
+                            {displayName}
                             {" "}
                             <span>
-                                <VerifiedUserIcon className='postBadge' />
+                                {verified && <VerifiedUserIcon className='postBadge' />}
                             </span>
                             {" "}
                             <span className='postHeaderSpecial'>
-                                {"@vnkvp"}
+                                @{username}
                             </span>
                         </h3>
                     </div>
                     <div className='postHeaderDescription'>
-                        <p>Hello mfs</p>
+                        <p>{text}</p>
                     </div>
                     <img
-                        src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F3l02rhocss051.jpg&f=1&nofb=1'
-                        alt='strong-doge' className='postImage' />
+                        src={image}
+                        alt='' className='postImage' />
                     <div className='postFooter'>
                         <span>
                             <ChatBubbleOutlineIcon fontSize='small' />

@@ -6,7 +6,7 @@ class LikePost extends React.Component {
 
         super(props);
         this.state = {
-            likes: 50,
+            likes: 0,
             updated: false
         };
     }
