@@ -38,7 +38,7 @@ function Post({
                         </h3>
                     </div>
                     <div className='postHeaderDescription'>
-                        <p>Hello</p>
+                        <p>Hello mfs</p>
                     </div>
                     <img
                         src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F3l02rhocss051.jpg&f=1&nofb=1'
