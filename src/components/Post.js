@@ -1,5 +1,5 @@
 import React from 'react'
-import './assets/Post.css'
+import '../assets/Post.css'
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser'
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline'
 import RepeatIcon from '@material-ui/icons/Repeat'

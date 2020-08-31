@@ -1,6 +1,6 @@
 import React from 'react'
 import { Avatar, Button } from '@material-ui/core'
-import './assets/Tweetbox.css'
+import '../assets/Tweetbox.css'
 
 function Tweetbox() {
     return (

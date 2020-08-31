@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/Sidebar.css';
+import '../assets/Sidebar.css';
 import { Button } from '@material-ui/core'
 import TwitterIcon from '@material-ui/icons/Twitter';
 import SidebarOption from './SidebarOption';
