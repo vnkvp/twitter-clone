@@ -9,3 +9,26 @@ body {
     margin: 0 auto 0 auto;
     padding: 0 10px;
 }
+
+@media only screen and (max-width: 780px){
+    .widgets {
+        display: none;
+    }
+    .feed {
+        flex: 0.9;
+    }
+    .sidebar {
+        border-right: 1px solid var(--twitter-background);
+        flex: 0.1;
+        min-width: 50px;
+        margin-top: 20px;
+        padding: 0 20px 0 20px;
+        overflow-y: scroll;
+    }
+    .sidebarOption > h2 {
+        display: none;
+    }
+    .sidebarTweet{
+        max-width: 20px;
+    }
+}
