@@ -11,6 +11,10 @@ body {
 }
 
 @media only screen and (max-width: 780px){
+    .app {
+        max-width: 780px;
+        height: 100%;
+    }
     .widgets {
         display: none;
     }
